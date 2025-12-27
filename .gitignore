@@ -1,0 +1,63 @@
+# .gitignore
+
+# copier
+.copier-answers.yml
+
+# ignore
+.git-DISABLED/
+.ignore/
+.ignore-*
+
+# dependencies
+node_modules/
+
+# Include all .env files in directory but not .secrets
+!.env/
+.secrets.js
+.production.secrets.js
+.local.env.js
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# next.js
+.next/
+**/.next/
+
+# export
+**/out/
+**/export/
+
+# production
+build/
+**/.tsc/
+
+# misc
+.DS_Store
+
+# self-signed certificates for local https testing
+*.key
+*.crt
+*.pem
+.localcerts/
+
+# debug
+npm-debug.log*
+.pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+**/log/
+**/.log/
+
+# vercel
+.vercel
+
+# testing
+/coverage
+
+# yarn
+.pnp/
+.pnp.js
