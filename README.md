@@ -9,16 +9,23 @@ A project template for quickly starting AI-assisted creative and execution proje
 You can create a new project from this template in two ways:
 
 1. **GitHub Web Interface**:
-- Go to this repository
-- Click "Use this template" button
-- Choose "Create a new repository"
-- Name your repository and click "Create repository from template"
+   - Go to this repository
+   - Click "Use this template" button
+   - Choose "Create a new repository"
+   - Name your repository and click "Create repository from template"
 
 2. **Command Line**:
-  ```bash
-  # Create new project from template using GitHub CLI
-  gh repo create my-new-project --template tw-studio/ai-starter [--public/--private] [--clone]
-  ```
+   ```bash
+   # Create new project from template using GitHub CLI
+   gh repo create my-new-project \
+     --template tw-studio/ai-starter \
+     [--public | --private]
+ 
+   # Clone the newly created repo (choose SSH or HTTPS)
+   git clone git@github.com:your-username/my-new-project.git
+   # or
+   git clone https://github.com/your-username/my-new-project.git
+   ```
 
 ### Open Your Project in VS Code
 
