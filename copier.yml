@@ -1,7 +1,4 @@
 # copier.yml
 
-# Minimal configuration for update-only usage
 _min_copier_version: "9.0.0"
-
-# Optional: Set a subdirectory if your template isn't at root
-# _subdirectory: template
+starter_source: "tw-studio/ai-starter"
