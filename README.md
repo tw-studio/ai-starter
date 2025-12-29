@@ -40,7 +40,6 @@ This template includes:
 - `.clinerules/` - Cline's memory bank system
 - `01-planning/` - Semantic zones for exploration and planning
 - `.memory-bank/` - Core files for Cline context management
-- `GETTING-STARTED.md` - First steps guide
 
 ## 🎯 How to Use
 
